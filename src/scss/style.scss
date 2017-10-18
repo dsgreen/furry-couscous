@@ -5,78 +5,82 @@
 	Author: StudioPress
 	Author URI: http://www.studiopress.com/
 
-	Version: 2.2.4
+	Version: 2.3.1
 
 	Tags: black, red, white, one-column, two-columns, three-columns, left-sidebar, right-sidebar, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
 
 	Template: genesis
-	Template Version: 2.2.3
+	Template Version: 2.3.0
 
 	License: GPL-2.0+
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+	Text Domain: genesis-sample
 */
 
 @import "base/toc";
 
-/* # HTML5 Reset
+/* HTML5 Reset
 ---------------------------------------------------------------------------------------------------- */
 
 @import "vendor/normalize";
 @import "base/reset";
 
-/* # Defaults
+/* Defaults
 ---------------------------------------------------------------------------------------------------- */
 
 @import "base/type";
-@import "base/elements";
-@import "base/forms";
+@import "base/objects";
 @import "components/gallery";
-@import "base/accessibility";
+@import "base/forms";
+@import "base/tables";
+@import "base/screen-reader";
 
-/* # Structure and Layout
+/* Structure and Layout
 ---------------------------------------------------------------------------------------------------- */
 
 @import "layout/structure";
 @import "layout/columns";
 
-/* # Common Classes
+/* Common Classes
 ---------------------------------------------------------------------------------------------------- */
 
 @import "layout/classes";
 @import "layout/widgets";
 @import "components/plugins";
+@import "base/skip-links";
 
-/* # Site Header
+/* Site Header
 ---------------------------------------------------------------------------------------------------- */
 
 @import "layout/header";
 
-/* # Site Navigation
+/* Site Navigation
 ---------------------------------------------------------------------------------------------------- */
 
 @import "layout/navigation";
 
-/* # Content Area
+/* Content Area
 ---------------------------------------------------------------------------------------------------- */
 
 @import "layout/content";
 
-/* # Sidebars
+/* Sidebars
 ---------------------------------------------------------------------------------------------------- */
 
 @import "layout/sidebar";
 
-/* # Footer Widgets
+/* Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
 
 @import "layout/footer";
 
-/* # Media Queries
+/* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
 @import "layout/mq";
 
-/* # Print Styles
+/* Print Styles
 ---------------------------------------------------------------------------------------------------- */
 
 @import "base/print";

@@ -1,4 +1,4 @@
-/* ## Avatar
+/* Avatar
 --------------------------------------------- */
 
 .avatar {
@@ -19,7 +19,7 @@
   margin: 0 16px 24px 0;
 }
 
-/* ## Genesis
+/* Genesis
 --------------------------------------------- */
 
 .breadcrumb {
@@ -45,7 +45,7 @@
   margin-bottom: 0;
 }
 
-/* ## Search Form
+/* Search Form
 --------------------------------------------- */
 
 .search-form {
@@ -79,7 +79,7 @@
   width: 1px;
 }
 
-/* ## Titles
+/* Titles
 --------------------------------------------- */
 
 .archive-description .entry-title,
@@ -100,8 +100,8 @@
   text-decoration: none;
 }
 
-.entry-title a:hover,
-.entry-title a:focus {
+.entry-title a:focus,
+.entry-title a:hover {
   color: #c3251d;
 }
 
@@ -111,7 +111,7 @@
   margin-bottom: 20px;
 }
 
-/* ## WordPress
+/* WordPress
 --------------------------------------------- */
 
 a.aligncenter img {
@@ -162,6 +162,7 @@ img.alignright,
   margin: 0 0 24px 24px;
 }
 
+.gallery-caption,
 .wp-caption-text {
   font-size: 14px;
   font-size: 1.4rem;

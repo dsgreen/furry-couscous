@@ -1,7 +1,7 @@
-/* # Plugins
+/* Plugins
 ---------------------------------------------------------------------------------------------------- */
 
-/* ## Genesis eNews Extended
+/* Genesis eNews Extended
 --------------------------------------------- */
 
 .sidebar .enews-widget,
@@ -23,8 +23,8 @@
   color: #fff;
 }
 
-.sidebar .enews-widget input:hover[type="submit"],
-.sidebar .enews-widget input:focus[type="submit"]  {
+.sidebar .enews-widget input[type="submit"]:focus,
+.sidebar .enews-widget input[type="submit"]:hover  {
   background-color: #fff;
   color: #333;
 }
@@ -44,7 +44,34 @@
   margin-top: 24px;
 }
 
-/* ## Jetpack
+/* Genesis Simple FAQ
+--------------------------------------------- */
+
+.gs-faq__question {
+  background: transparent;
+  border-bottom: 1px solid #eee;
+  color: #333;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.gs-faq__question:focus,
+.gs-faq__question:hover {
+  background: transparent;
+  color: #c3251d;
+}
+
+.gs-faq__question::after {
+  content: "\f132";
+  font-family: "dashicons";
+  float: right;
+}
+
+.gs-faq__question.gs-faq--expanded::after {
+  content: "\f460";
+}
+
+/* Jetpack
 --------------------------------------------- */
 
 #wpstats {

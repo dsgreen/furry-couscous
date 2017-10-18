@@ -16,16 +16,16 @@
 
 .genesis-nav-menu a {
   color: #333;
-  text-decoration: none;
   display: block;
   padding: 32px 20px;
+  text-decoration: none;
 }
 
-.genesis-nav-menu a:hover,
 .genesis-nav-menu a:focus,
+.genesis-nav-menu a:hover,
 .genesis-nav-menu .current-menu-item > a,
-.genesis-nav-menu .sub-menu .current-menu-item > a:hover,
-.genesis-nav-menu .sub-menu .current-menu-item > a:focus  {
+.genesis-nav-menu .sub-menu .current-menu-item > a:focus,
+.genesis-nav-menu .sub-menu .current-menu-item > a:hover {
   color: #c3251d;
   text-decoration: underline;
 }
@@ -81,7 +81,7 @@
   float: right;
 }
 
-/* ## Accessible Menu
+/* Accessible Menu
 --------------------------------------------- */
 
 .menu .menu-item:focus {
@@ -94,20 +94,20 @@
   opacity: 1;
 }
 
-.sub-menu-toggle,
-.menu-toggle {
+.menu-toggle,
+.sub-menu-toggle {
   display: none;
   visibility: hidden;
 }
 
-/* ## Site Header Navigation
+/* Site Header Navigation
 --------------------------------------------- */
 
 .site-header .genesis-nav-menu li li {
   margin-left: 0;
 }
 
-/* ## After Header Navigation
+/* After Header Navigation
 --------------------------------------------- */
 
 .nav-primary {
@@ -115,7 +115,7 @@
   border-top: 1px solid #eee;
 }
 
-/* ## Footer Navigation
+/* Footer Navigation
 --------------------------------------------- */
 
 .site-footer .genesis-nav-menu {

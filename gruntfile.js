@@ -22,8 +22,10 @@ module.exports = function(grunt) {
     sass: {
       dev: {
         options: {
+          indentType: 'tab',
+          indentWidth: 1,
           outputStyle: 'expanded',
-          sourceMap: true
+          sourceMap: false
         },
         files: {
           'style.css' : 'src/scss/style.scss'

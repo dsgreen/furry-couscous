@@ -1,4 +1,4 @@
-/* ## Gallery
+/* Gallery
 --------------------------------------------- */
 
 .gallery {
@@ -7,7 +7,7 @@
 
 .gallery-item {
   float: left;
-  margin: 0 0 28px;
+  margin: 0 0 30px;
   text-align: center;
 }
 
@@ -64,7 +64,7 @@
   padding: 4px;
 }
 
-.gallery img:hover,
-.gallery img:focus {
+.gallery img:focus,
+.gallery img:hover {
   border: 1px solid #999;
 }

@@ -1,4 +1,4 @@
-/* ## Entries
+/* Entries
 --------------------------------------------- */
 
 .entry {
@@ -9,7 +9,7 @@
 
 .entry-content ol,
 .entry-content ul {
-  margin-bottom: 28px;
+  margin-bottom: 30px;
   margin-left: 40px;
 }
 
@@ -31,7 +31,7 @@
   color: #eee;
 }
 
-/* ## Entry Meta
+/* Entry Meta
 --------------------------------------------- */
 
 p.entry-meta {
@@ -59,7 +59,7 @@ p.entry-meta {
   margin: 0 6px 0 2px;
 }
 
-/* ## Pagination
+/* Pagination
 --------------------------------------------- */
 
 .pagination {
@@ -87,14 +87,14 @@ p.entry-meta {
   text-decoration: none;
 }
 
-.archive-pagination a:hover,
 .archive-pagination a:focus,
+.archive-pagination a:hover,
 .archive-pagination .active a {
   background-color: #c3251d;
   color: #fff;
 }
 
-/* ## Comments
+/* Comments
 --------------------------------------------- */
 
 .comment-respond,
